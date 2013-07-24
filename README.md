@@ -1,17 +1,9 @@
-Build instructions:
-===================
+GDX的官核底包
 
-repo init -u git://github.com/TeamFun/android.git -b gingerbread
-. build/envsetup.sh
-lunch cyanogen_hero-eng
-make -j6 update-api
-make -j6
+请在编译后，进入out文件夹把app和framework复制进改底包
 
-After build go to out directory and copy app and framework into these stock essentials.
-Take a build.prop from shakira build and copy it into /system and /system/bin
+找到etc/wifi/tiwlan0 重命名为wlan0
 
-IMPORTANT:
-Find tiwlan0 and rename it into wlan0
+META-INF可以从需要移植的原包提取或者GDX31bSTK
 
-Take META-INF folder from shakira folder and edit updater-script if needed.
-Zip the package and flash.
+此包供移植专用
