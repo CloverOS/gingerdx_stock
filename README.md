@@ -4,6 +4,6 @@ GDX的官核底包
 
 找到tiwlan0重命名为wlan0
 
-META-INF可以从需要移植的原包提取或者GDX31bSTK
+META-INF可以从需要移植的原包提取或者GDX31b的官核版本
 
-此包供移植专用
+此包供移植与GDX更新官核版本专用
